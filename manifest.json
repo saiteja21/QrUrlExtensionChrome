@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "URLs2QR",
+  "description": "Converts the url opened in active tab to QR code also converts all the urls opened in the chrome tabs to QR code.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "qrurl.html"
+  },
+  "permissions": [
+    "activeTab",
+	"<all_urls>",
+	"tabs"
+   ]
+}
